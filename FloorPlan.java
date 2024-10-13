@@ -88,7 +88,7 @@ public class FloorPlan {
 		return dirtGrid[x][y];
 	}
 
-	// Mark a tile as clean at (x, y)
+	// Mark a tile as clean at (x, y).
 	public void cleanTile(int x, int y) {
 		dirtGrid[x][y] = false;
 	}
