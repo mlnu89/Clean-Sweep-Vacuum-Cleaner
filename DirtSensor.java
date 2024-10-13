@@ -17,6 +17,6 @@ public class DirtSensor {
 	public void cleanTile(int x, int y) {
 		SurfaceType surfaceType = floorPlan.getSurfaceType(x, y);
 		floorPlan.cleanTile(x, y);
-		powerManagement.consumePower(surfaceType); // Power is consumed based on surface type
+		powerManagement.consumePower(surfaceType); // Power is consumed based on surface type.
 	}
 }
