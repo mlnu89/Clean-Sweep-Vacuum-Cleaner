@@ -11,7 +11,7 @@ public enum Direction {
 			return new int[] { x + 1, y };
 		} else if (this == WEST) {
 			return new int[] { x - 1, y };
-		} else { // Don't move if direction is invalid
+		} else { // Don't move if direction is invalid.
 			return new int[] { x, y };
 		}
 	}
