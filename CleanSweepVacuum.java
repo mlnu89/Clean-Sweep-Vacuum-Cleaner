@@ -59,7 +59,7 @@ public class CleanSweepVacuum {
 		SurfaceType surfaceType = floorPlan.getSurfaceType(currentX, currentY);
 		if (dirtSensor.isDirty(currentX, currentY)) {
 			dirtSensor.cleanTile(currentX, currentY); // Clean the tile
-			powerManagement.consumePower(surfaceType); // Power used during cleaning
+			powerManagement.consumePower(surfaceType); // Power used during cleaning.
 		} else {
 			System.out.println("No dirt detected at: (" + currentX + ", " + currentY + ")");
 		}
