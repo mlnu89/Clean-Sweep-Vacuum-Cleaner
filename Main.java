@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        // Create a floor plan with width and height (e.g., 4x4)
+        // Create a floor plan with width and height (e.g., 4x4).
         FloorPlan floorPlan = new FloorPlan(4, 4);
 
         // Load the floor plan from a file (ensure you have the correct file path)
