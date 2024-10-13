@@ -29,7 +29,7 @@ public class PowerManagement {
 		return powerConsumed;
 	}
 
-	// Recharge the battery to full capacity
+	// Recharge the battery to full capacity.
 	public void recharge() {
 		battery = maxBattery;
 		System.out.println("Battery recharged to full.");
